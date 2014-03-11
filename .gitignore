@@ -1,0 +1,7 @@
+# System files
+.DS_Store
+.htaccess
+
+# Portfolio Big Files
+/websites/
+/print/

@@ -1,0 +1,109 @@
+@media screen and (max-width: 860px) 	{
+	nav a{padding: 12px 10px; margin-right: 10px;}
+}
+
+@media screen and (max-width: 740px) 	{
+	.left-col { width: 100%; }
+	.sidebar { width: 100%; background:none;}
+	.copyright{width:200px;}
+	nav a{padding: 12px 5px; margin-right: 0px;}
+	#logo_text{margin-bottom: 25px}
+	#pull_me_button{display:none}
+	
+/* embedded videos */
+	.video embed, .video object, .video iframe {
+		width: 100%;
+		height: auto;
+		min-height: 250px;
+	}
+	  .sidebar.quicklinks{border:none;}
+	  .sidebar.quicklinks a{margin:0 10px; padding:0;}
+	  .sidebar.quicklinks a:hover{margin:0 10px; padding:0;}
+	  .sidebar h2{margin: 0 10px; text-align: left;}
+	  ul.column li {
+		width: 49%; /*Set default width*/
+		margin: 5px 2% 5px 0;
+		}
+
+	ul.column li:nth-child(3n+3){
+	margin-right:2%;
+	}
+	
+	ul.column li:nth-child(2n+2){
+	margin-right:0;
+	}
+	
+	#contact-info{
+	width: 30%;
+	margin-top:20px;
+	}
+	
+	.large-tablet-hide{display:none;}
+
+	.quick-links{
+		float:left;
+		margin-right:50px;
+	}
+}
+
+@media (max-width: 650px) {
+	#FSCForm1 textarea {
+		margin-top: 5px !important;
+		width: 265px;
+	}
+	
+	#FSCForm1, #FSCForm1 input{width:70% !important}
+}
+
+@media (max-width: 633px) {
+    #logo_text h1{font-size:21px;}
+    #quals{margin:0 30px;}
+}
+
+@media screen and (max-width: 570px) {
+		nav a{ padding:12px 0px;}
+		.three_thumbs{width:45%; margin-right:2%;} 
+		.tablet-hide{display:none}
+		#logo_text h1{font-size:18px;}
+}
+
+@media screen and (max-width: 478px) 	{
+	h1 { font-size: 16px; padding: 1px; }
+	h2 { font-size: 18px; padding: 1px; }
+	body { font-size: 13px; }
+	nav a {font-size: 15px;}
+	/* embedded videos */
+	.video embed,
+	.video object,
+	.video iframe {
+		min-height: 250px;
+	}
+}
+
+  @media (max-width: 500px) {		
+	  footer {margin: 0 auto; text-align: center; margin-bottom: 20px;}
+	  .sidebar { background:none; }
+	  .desktop{display:none !important;}
+	  .mobile{display:block !important;}
+	  #logo{float: none; margin: 0 auto; width: 100%; text-align: center;}
+	  nav{height:40px; overflow:hidden;}
+	  nav a{margin:0;}
+	  nav a:hover{margin:0; padding:12px 0;}
+	  nav li{display:inline;}
+	  nav li a{width:auto; text-align: center;}
+	  nav li a:hover{width:100%;}
+	  .menu-open{background-color:#609b99;}
+	  .menu-open a:hover{background:#609b99; color:#ffffff;}
+	  ul.column li {width: 100%; margin: 5px 0 5px 0;} 
+	  .three_thumbs{width:95%;} 
+	  .three_thumbs img{width:100%;} 
+	  #FSCForm1, #FSCForm1 input, #FSCForm1 textarea{width:99% !important}
+	  #FSCForm1 input{margin-top:5px !important;}
+	  #social_icons{margin-left:0;}
+	  .copyright{width:100%;}
+	  .bio_pic{float:none;}
+	  	.quick-links{
+		float:none;
+		margin-right:0px;
+	}
+    }
