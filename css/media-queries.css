@@ -96,7 +96,6 @@
 	  nav a:hover{margin:0; padding:12px 0;}
 	  nav li{display:inline;}
 	  nav li a{width:auto; text-align: center;}
-	  nav li a:hover{width:100%;}
 	  .menu-open{background-color:#609b99;}
 	  .menu-open a:hover{background:#609b99; color:#ffffff;}
 	  ul.column li {width: 100%; margin: 5px 0 5px 0;} 
