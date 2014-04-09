@@ -34,7 +34,7 @@ body 				{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; color: #222; font-family: 'Open Sans', sans-serif; font-weight:300; font-size: 15px; 
+    background-size: cover; color: #222; font-family: 'Open Sans', Helvetica, sans-serif; font-weight:300; font-size: 15px; 
 	-webkit-transition-property: font-size;
 	-moz-transition-property: font-size;
 	transition-property: font-size;
@@ -80,7 +80,7 @@ h2 					{ font-family: 'Pacifico', cursive; font-size:26px; font-weight:600; mar
 
 
 h3 					{ font-family: 'Pacifico', cursive; font-weight:600; font-size: 20px; color:#ffffff; line-height:20px; padding: 10px; text-align:center;}
-h4 					{ font-family: 'Pacifico', cursive;, sans-serif; font-weight:600; padding: 3px; font-size: 16px; letter-spacing:1px; margin: 5px 0 5px 0; color:#FFFFFF;}
+h4 					{ font-family: 'Pacifico', cursive; font-weight:600; padding: 3px; font-size: 16px; letter-spacing:1px; margin: 5px 0 5px 0; color:#FFFFFF;}
 
 nav 				{ width:100%; text-align:center; background: #999; /* for non-css3 browsers */
 display:block;
@@ -171,11 +171,13 @@ color:#609b99;
 }
 
 #featured 			{ padding: 20px;   }
-#latest				{ padding: 20px; }
+#latest				{ padding: 20px; float:left; width:50%;}
+#twitter-widget		{width:40%; float:right; margin: 20px 20px 0 0;}
+#twitter-widget-0	{height:250px;}
 #about 				{ padding: 20px; }
 
 
-p 					{ padding: 0 5px 0 5px; color:#ffffff; font-family: 'Open Sans', sans-serif; font-weight:300; font-size:14px; margin-bottom:10px;}
+p 					{ padding: 0 5px 0 5px; color:#ffffff; font-family: 'Open Sans', Helvetica, sans-serif; font-weight:300; font-size:14px; margin-bottom:10px;}
 
 ul 					{ list-style: none; }
 
@@ -222,22 +224,14 @@ input{
 .blue {
 	color: #E9E9E9;
 	border: solid 1px #555;
-	background: #6E6E6E;
-	background: -webkit-gradient(linear, left top, left bottom, from(#888888), to(#575757));
-	background: -moz-linear-gradient(top,  #888888,  #575757);
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#888888', endColorstr='#575757');
+	background: #609b99;
 }
 .blue:hover {
-	background: #6E6E6E;
-	background: -webkit-gradient(linear, left top, left bottom, from(#f888888), to(#5a5a5a));
-	background: -moz-linear-gradient(top,  #f888888,  #575757);
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#888888', endColorstr='#888');
+	background: #609b99;
 }
 .blue:active {
-	color: #1b88bf;
-	background: -webkit-gradient(linear, left top, left bottom, from(#f888888), to(#5a5a5a));
-	background: -moz-linear-gradient(top,  #888888,  #575757);
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#888888', endColorstr='#575757');
+	color: #609b99;
+
 }
 
 .backtotop:hover{
@@ -962,7 +956,6 @@ color:#FFFFFF;
 	position: relative;
 	list-style-type: none;
 	padding: 30px 0 50px 0;
-	font-family: 'Gorditas', Arial, sans-serif;
 }
 
 .timeline:before {

@@ -58,6 +58,11 @@
 <div id="container" class="clearfix">
 
   <div class="box item">
+    <h3>Sass</h3>
+    <p>After a long time using LESS I am now a convert to Sass, I love the additional features it has. So much time can be saved by setting up your project to utilise the features Sass can offer. I would definitely recommend checking out the Sass <a target="_blank" href="http://sass-lang.com/">website</a> if you don't use it already.</p>
+  </div>
+
+  <div class="box item">
     <h3>On the Go Cable</h3>
     <p>Today I saw a great little cable called the 'on the go' cable, it allows you to use USB devices with your Android mobile phone. I have seen it used with a mouse, usb pen, card reader and even a powered hard drive. Very useful for connecting up your handset to 3rd party devices without needing a computer.</p>
   </div>

@@ -64,6 +64,16 @@ $section = "about";
 
 <p>Feel free to drop me an email with any questions, work, or collaborative ideas you may have.</p>
 			</div> <!-- END Latest -->
+			<div id="twitter-widget">
+				
+<a class="twitter-timeline" href="https://twitter.com/stevelitton" data-widget-id="445260410648686592">Tweets by @stevelitton</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+
+
+
+				</div>
 			<div class="clearfix"></div>
             <div id="featured">
              <h2 class="static_header">My work studio</h2>

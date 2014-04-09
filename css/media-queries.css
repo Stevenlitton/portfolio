@@ -46,6 +46,11 @@
 	}
 }
 
+@media screen and (max-width: 700px) 	{
+	#twitter-widget{width:92%; float:none; margin:0 auto;}
+	#latest{width:90%; float:none;}
+}
+
 @media (max-width: 650px) {
 	#FSCForm1 textarea {
 		margin-top: 5px !important;
